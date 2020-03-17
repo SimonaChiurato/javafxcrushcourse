@@ -42,7 +42,7 @@ public class FXMLController {
     		return;
     	}
     	int etaN=0;
-    	try{
+    	try{ 
     		etaN=Integer.parseInt(eta);
     	}catch( NumberFormatException e) {
     		lblRisposta.setText("L'età deve essere un numero");
